@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img width="250" alt="mark logo" src="./assets/mark_with_new_logo.jpg">
+  <HelloWorld msg=""/>
 </template>
 
 <script>
@@ -21,6 +21,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 20px);
 }
 </style>
